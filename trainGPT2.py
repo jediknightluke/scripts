@@ -1,3 +1,19 @@
+"""
+
+Written by Luke Melton
+03/01/2023
+
+Fine-tuning GPT-2 and Generating Texts
+--------------------------------------
+
+This script fine-tunes a GPT-2 model on a 
+custom dataset and generates texts using the fine-tuned model.
+
+
+
+"""
+
+
 import os
 import torch
 from transformers import GPT2Tokenizer, GPT2LMHeadModel, TextDataset, DataCollatorForLanguageModeling
